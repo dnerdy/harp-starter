@@ -1,0 +1,21 @@
+{
+  "rules": {
+    "strict": 1,
+    "no-unused-vars":[2, {"vars": "local"}],
+    "no-undef":1,
+    "quotes": [1, "single"],
+    "no-multi-spaces": 0,
+    "no-unexpected-multiline": 0,
+    "curly": 0,
+    "consistent-return": 0,
+    "no-underscore-dangle": 0,
+    "no-console":0,
+    "semi": ["error", never"]
+  },
+  "env": {
+    "es6": true,
+    "browser": true
+  },
+  "globals": {
+  }
+}
